@@ -1,6 +1,6 @@
-package gita.uz.productapp.data.repository.impl
+package gita.uz.productapp.domain.repository.impl
 
-import gita.uz.productapp.data.repository.AppRepository
+import gita.uz.productapp.domain.repository.AppRepository
 import gita.uz.productapp.data.source.remote.api.ProductApi
 import gita.uz.productapp.data.source.remote.request.DataPostRequest
 import gita.uz.productapp.data.source.remote.response.DataGetAll

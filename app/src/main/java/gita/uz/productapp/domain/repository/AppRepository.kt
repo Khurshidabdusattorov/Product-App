@@ -1,4 +1,4 @@
-package gita.uz.productapp.data.repository
+package gita.uz.productapp.domain.repository
 
 import gita.uz.productapp.data.source.remote.request.DataPostRequest
 import gita.uz.productapp.data.source.remote.response.DataGetAll
