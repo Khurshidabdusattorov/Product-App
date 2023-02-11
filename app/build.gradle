@@ -80,4 +80,11 @@ dependencies {
     // Pluto
     debugImplementation 'com.mocklets:pluto:1.1.3'
     releaseImplementation 'com.mocklets:pluto-no-op:1.1.0'
+
+    //Room Database dependency
+    implementation("androidx.room:room-runtime:2.5.0")
+    annotationProcessor("androidx.room:room-compiler:2.5.0")
+
+    // To use Kotlin annotation processing tool (kapt)
+    kapt("androidx.room:room-compiler:2.5.0")
 }
